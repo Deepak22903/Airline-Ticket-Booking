@@ -52,7 +52,7 @@ void BookingSystem::displayMainMenu() {
                  // backslashes
 
   std::cout << "                                                        ========================================\n";
-  std::cout << "                                                           Airline Ticket Booking System (Modular)\n";
+  std::cout << "                                                           Airline Ticket Booking System \n";
   std::cout << "                                                           (Using Binomial Heap Waitlists)      \n";
   std::cout << "                                                        ========================================\n";
   std::cout << "                                                        1. List All Flights\n";
