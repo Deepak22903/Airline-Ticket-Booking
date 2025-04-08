@@ -150,6 +150,10 @@ void BookingSystem::cancelBooking() {
   std::cout << "Enter Passenger ID to cancel booking for: ";
   while (!(std::cin >> passengerId) ||
          passengers.find(passengerId) == passengers.end()) {
+    if (passengerId == 0) {
+      displayMainMenu();
+    }
+
     std::cout << "Invalid or unknown Passenger ID. Please try again: ";
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
