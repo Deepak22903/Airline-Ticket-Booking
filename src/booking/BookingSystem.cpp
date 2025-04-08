@@ -35,35 +35,35 @@ void BookingSystem::displayMainMenu() {
 
   // --- ASCII Art ---
   std::cout << R"(
-                             |
-                       --====|====--
-                             |  
-
-                         .-"""""-. 
-                       .'_________'. 
-                      /_/_|__|__|_\_\
-                     ;'-._       _.-';
-,--------------------|    `-. .-'    |--------------------,
- ``""--..__    ___   ;       '       ;   ___    __..--""``
-           `"-// \\.._\             /_..// \\-"`
-              \\_//    '._       _.'    \\_//
-               `"`        ``---``        `"`
+                                                                               |
+                                                                         --====|====--
+                                                                               |  
+                                                  
+                                                                           .-"""""-. 
+                                                                         .'_________'. 
+                                                                        /_/_|__|__|_\_\
+                                                                       ;'-._       _.-';
+                                                  ,--------------------|    `-. .-'    |--------------------,
+                                                   ``""--..__    ___   ;       '       ;   ___    __..--""``
+                                                             `"-// \\.._\             /_..// \\-"`
+                                                                \\_//    '._       _.'    \\_//
+                                                                 `"`        ``---``        `"`
 )" << std::endl; // R"(...)" is a raw string literal, avoids escaping
                  // backslashes
 
-  std::cout << "========================================\n";
-  std::cout << "   Airline Ticket Booking System (Modular)\n";
-  std::cout << "   (Using Binomial Heap Waitlists)      \n";
-  std::cout << "========================================\n";
-  std::cout << "1. List All Flights\n";
-  std::cout << "2. View Flight Details\n";
-  std::cout << "3. Add New Passenger\n";
-  std::cout << "4. Book Ticket\n";
-  std::cout << "5. Cancel Booking\n";
-  std::cout << "6. Add New Flight (Admin)\n";
-  std::cout << "0. Exit\n";
-  std::cout << "----------------------------------------\n";
-  std::cout << "Enter your choice: ";
+  std::cout << "                                                        ========================================\n";
+  std::cout << "                                                           Airline Ticket Booking System (Modular)\n";
+  std::cout << "                                                           (Using Binomial Heap Waitlists)      \n";
+  std::cout << "                                                        ========================================\n";
+  std::cout << "                                                        1. List All Flights\n";
+  std::cout << "                                                        2. View Flight Details\n";
+  std::cout << "                                                        3. Add New Passenger\n";
+  std::cout << "                                                        4. Book Ticket\n";
+  std::cout << "                                                        5. Cancel Booking\n";
+  std::cout << "                                                        6. Add New Flight (Admin)\n";
+  std::cout << "                                                        0. Exit\n";
+  std::cout << "                                                        ----------------------------------------\n";
+  std::cout << "                                                        Enter your choice: ";
 }
 
 void BookingSystem::listAllFlights() {
