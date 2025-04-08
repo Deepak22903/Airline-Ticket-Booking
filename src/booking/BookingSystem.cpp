@@ -32,6 +32,25 @@ void BookingSystem::pressEnterToContinue() {
 
 void BookingSystem::displayMainMenu() {
   clearScreen();
+
+  // --- ASCII Art ---
+  std::cout << R"(
+                             |
+                       --====|====--
+                             |  
+
+                         .-"""""-. 
+                       .'_________'. 
+                      /_/_|__|__|_\_\
+                     ;'-._       _.-';
+,--------------------|    `-. .-'    |--------------------,
+ ``""--..__    ___   ;       '       ;   ___    __..--""``
+           `"-// \\.._\             /_..// \\-"`
+              \\_//    '._       _.'    \\_//
+               `"`        ``---``        `"`
+)" << std::endl; // R"(...)" is a raw string literal, avoids escaping
+                 // backslashes
+
   std::cout << "========================================\n";
   std::cout << "   Airline Ticket Booking System (Modular)\n";
   std::cout << "   (Using Binomial Heap Waitlists)      \n";
