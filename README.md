@@ -8,6 +8,8 @@ When a flight reaches its capacity, passengers attempting to book are added to a
 
 The application provides a Text-based User Interface (TUI) for interaction via the console.
 
+[▶️ Watch demo](https://github.com/Deepak22903/Airline-Ticket-Booking/blob/main/demo.mkv)
+
 ## Features
 
 - **Flight Management:**
