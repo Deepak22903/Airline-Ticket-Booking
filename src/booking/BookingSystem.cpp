@@ -51,19 +51,32 @@ void BookingSystem::displayMainMenu() {
 )" << std::endl; // R"(...)" is a raw string literal, avoids escaping
                  // backslashes
 
-  std::cout << "                                                        ========================================\n";
-  std::cout << "                                                           Airline Ticket Booking System \n";
-  std::cout << "                                                           (Using Binomial Heap Waitlists)      \n";
-  std::cout << "                                                        ========================================\n";
-  std::cout << "                                                        1. List All Flights\n";
-  std::cout << "                                                        2. View Flight Details\n";
-  std::cout << "                                                        3. Add New Passenger\n";
-  std::cout << "                                                        4. Book Ticket\n";
-  std::cout << "                                                        5. Cancel Booking\n";
-  std::cout << "                                                        6. Add New Flight (Admin)\n";
-  std::cout << "                                                        0. Exit\n";
-  std::cout << "                                                        ----------------------------------------\n";
-  std::cout << "                                                        Enter your choice: ";
+  std::cout << "                                                        "
+               "========================================\n";
+  std::cout << "                                                           "
+               "Airline Ticket Booking System \n";
+  std::cout << "                                                           "
+               "(Using Binomial Heap Waitlists)      \n";
+  std::cout << "                                                        "
+               "========================================\n";
+  std::cout << "                                                        1. "
+               "List All Flights\n";
+  std::cout << "                                                        2. "
+               "View Flight Details\n";
+  std::cout << "                                                        3. Add "
+               "New Passenger\n";
+  std::cout << "                                                        4. "
+               "Book Ticket\n";
+  std::cout << "                                                        5. "
+               "Cancel Booking\n";
+  std::cout << "                                                        6. Add "
+               "New Flight (Admin)\n";
+  std::cout
+      << "                                                        0. Exit\n";
+  std::cout << "                                                        "
+               "----------------------------------------\n";
+  std::cout << "                                                        Enter "
+               "your choice: ";
 }
 
 void BookingSystem::listAllFlights() {
